@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font: bold 20px Tahoma;
+}
+
+h2{
+    font: bold 14px Tahoma;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+    display:block;
+}
+
+body{
+	width:100%;
+	background:#3b3b38;
+	display:flex;
+    justify-content:center;
+	
+}
+
+#big_wrapper{
+    width: 1000px;
+    margin: 20px 10px;
+	display:flex;
+	flex-direction:column;
+	flex:1;
+} 
+
+#top_header{
+    background:white;
+    border: 1px solid blue;
+    padding: 0px;
+    text-align: left;
+
+}
+
+#top_menu{
+    background: red;
+    color: black;
+}
+
+#top_menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    font: bold 14px tahoma;
+}
+#new_div{
+	display:flex;
+	flex:1;
+	flex-direction:horizontal;
+	justify-content:space-around;
+}
+
+
+#sideNews{
+	display:flex;
+	flex:1;
+	width:100px;
+	margin:10px 0px;
+	padding:30px;
+	background:#66CCCC;
+	width:100px;
+	height:300px;
+}
+#sideNews li{
+	display:block;
+	list-style:none;
+	padding:10px;
+	font:bold 12px Tahoma;
+}
+
+#main_section{
+	display:flex;
+	flex:8;
+	flex-wrap:wrap;
+    border:1px solid black;
+    background:white;
+    margin:10px 20px;
+    padding-left:60px;
+	
+   
+}
+
+
+ 
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 20px; 
+    border-top: 2px solid green;
+}
+
+img{
+	width:400px;
+	height:200px;
+}
+
+
+#div1{
+	flex:1;
+	border:1px solid black;
+	margin:10px;
+	height:200px;
+	width:400px;
+	max-width:400px;
+}
+
+#div2{
+	flex:1;
+	border:1px solid black;
+	height:200px;
+	width:400px;
+	max-width:400px;
+	margin:10px;
+}
+#div3{
+	flex:1;
+	border:1px solid black;
+	height:200px;
+	width:400px;
+	max-width:400px;
+	margin:10px;
+}
+#div4{
+	flex:1;
+	border:1px solid black;
+	height:200px;
+	width:400px;
+	max-width:400px;
+	margin:10px;
+}
+#div5{
+	flex:1;
+	border:1px solid black;
+	height:200px;
+	width:400px;
+	max-width:400px;
+	margin:10px;
+}
+#div6{
+	flex:1;
+	border:1px solid black;
+	height:200px;
+	width:400px;
+	max-width:400px;
+	margin:10px;
+}
+.sideways{
+	transform:rotate(90deg) scale(0.5, 2);
+}
+
+
+

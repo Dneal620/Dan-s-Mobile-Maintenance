@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Dan's Mobile Maintenance</title>
+	<link rel="stylesheet" href="main.css"> 
+</head>
+
+
+
+<body>
+
+<div id="big_wrapper">
+	<header id="top_header">
+		<img src="DMM_logo.jpg" width=500px height=250px/>
+	</header>
+
+	
+	<nav id="top_menu">
+		<ul>
+			<li><a href="DMM.html">Home</a></li>
+			<li><a href="about_us.html">About Us</a></li>
+			<li><a href="pictures.html">Pictures</a></li>
+		</ul>
+	</nav>
+	
+	<aside id="sideNews">
+	
+		<ul>
+			<li><a href="painting.html">Painting</a></li>
+			<li><a href="sheetrock.html">Sheetrock</a></li>
+			<li><a href="plumbing.html">Plumbing</a></li>
+			<li><a href="electrical.html">Electrical</a></li>
+			
+		
+		</ul>
+		
+	</aside>
+		
+	<section id="main_section">
+		<div id="div1">
+			<img src="pic1.jpg" />
+		</div>
+		<div id="div2">
+			<img src="pic2.jpg" />
+		</div>
+		<div id="div3">
+			<img src="pic3.jpg" />
+		</div>
+	</section>
+		
+	
+	
+	
+
+
+
+
+	
+	
+	
+	<footer>
+
+	</footer>
+	
+</div>
+
+</body>
+
+</html>
